@@ -1,4 +1,4 @@
-# 📩 Deteksi Pesan Spam (Machine Learning)
+# Deteksi Pesan Spam (Machine Learning)
 
 Proyek sederhana berbasis Machine Learning untuk mendeteksi apakah sebuah pesan teks atau pesan *chat* berbahasa Indonesia termasuk ke dalam kategori **Spam** atau **Bukan Spam (Ham)**.
 
@@ -6,7 +6,7 @@ Proyek ini menggunakan algoritma **Multinomial Naive Bayes** yang dikombinasikan
 
 ---
 
-## 🚀 Alur Kerja Program
+## Alur Kerja Program
 
 1. **Pengumpulan Data:** Menggunakan contoh pesan teks berbahasa Indonesia (penawaran pinjol, undian palsu, pesan harian, tugas, dsb.).
 2. **Pembagian Data (*Split Dataset*):** Data dibagi menjadi 80% data latih (*training*) dan 20% data uji (*testing*).
@@ -16,7 +16,7 @@ Proyek ini menggunakan algoritma **Multinomial Naive Bayes** yang dikombinasikan
 
 ---
 
-## 🛠️ Teknologi & *Library*
+## Teknologi & *Library*
 
 - **Python** (versi 3.8+)
 - **Jupyter Notebook**
@@ -28,7 +28,7 @@ Proyek ini menggunakan algoritma **Multinomial Naive Bayes** yang dikombinasikan
 
 ---
 
-## 📂 Struktur File
+## Struktur File
 
 ```text
 ├── app.ipynb      # Notebook utama: data, pelatihan, evaluasi, dan fungsi prediksi
@@ -37,7 +37,7 @@ Proyek ini menggunakan algoritma **Multinomial Naive Bayes** yang dikombinasikan
 
 ---
 
-## ⚡ Cara Menjalankan
+## Cara Menjalankan
 
 ### 1. Prasyarat
 Pastikan Python sudah terinstal di komputer Anda. Disarankan menggunakan environment Python atau editor seperti VS Code / Jupyter Lab.
@@ -54,7 +54,7 @@ Buka file `app.ipynb` di VS Code atau Jupyter Notebook, lalu jalankan semua sel 
 
 ---
 
-## 💡 Contoh Penggunaan
+## Contoh Penggunaan
 
 Di dalam notebook, Anda dapat menguji pesan baru menggunakan fungsi `cek_spam()`:
 
@@ -72,7 +72,7 @@ cek_spam("bro besok jadi futsal ga jam 4")
 
 ---
 
-## 📈 Pengembangan Lebih Lanjut
+## Pengembangan Lebih Lanjut
 
 Untuk meningkatkan performa dan cakupan model di masa mendatang:
 - [ ] Menambahkan lebih banyak variasi data latih (dataset publik SMS spam Indonesia).
